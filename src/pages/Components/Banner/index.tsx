@@ -1,17 +1,16 @@
 import { Flex, Image, SimpleGrid, Box, Text} from '@chakra-ui/react'
 
+
 export default function Banner(){
     return(
-        <Flex
-        >
-            <SimpleGrid 
-            
-            >
+        <Flex>
+            <SimpleGrid>
                 <Image 
-                src="https://wallpaperaccess.com/full/2370208.jpg" 
+                src="/images/BannerBackground.png" 
                 alt="banner"
-                w={1480}
+                maxWidth={2000}
                 h={335}
+                w="100%"
                 pos="absolute"
                 />
                 
@@ -19,7 +18,7 @@ export default function Banner(){
                 pos="relative"
                 w={410}
                 h={108}
-                color="gray.50"
+                color="white.80"
                 fontSize="36px"
                 ml={180}
                 mt={140}
@@ -39,7 +38,7 @@ export default function Banner(){
                 w={524}
                 h={57}
                 ml={180}
-                color="gray.50"
+                color="white.80"
                 fontSize="20px"
                 >
                     <Text>
@@ -60,13 +59,9 @@ export default function Banner(){
                     w={417.15}
                     h={270.74}
                     transform="rotate(-3deg)"
-                    src="https://wallpaperaccess.com/full/2370208.jpg"
-                    border="2px"
-                    borderColor="gray.100"
+                    src="/images/Airplane.png" 
                     />
                 </Flex>
-
-
             </SimpleGrid>
         </Flex>
     )

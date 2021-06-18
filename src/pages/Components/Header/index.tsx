@@ -7,13 +7,14 @@ export default function Header(){
         <Flex
         as="header"
         w="100%"
-        h="100"
+        // h="100px"
         position="relative"
         left={0}
         top={0}
         align="center"
-        backgroundColor="gray.50"
+        backgroundColor="light.100"
         justify="center"
+        mb={2}
         >
             <Logo/>
         </Flex>
