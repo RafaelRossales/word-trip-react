@@ -2,7 +2,7 @@ status: Building :construction:
 
 # World Trip :airplane:
 
-The world trip project is created using the react library along with chakra UI library. In a nutshell the following application aims to point out the mainly concepts learnt so far in the react ignite course from [`RocketSeat`](https://rocketseat.com.br/sobre).
+The world trip project is created using the react library along with chakra UI library. In a nutshell the following application aims to point out the mainly concepts learnt so far in the react ignite course from :rocket:[`@RocketSeat`](https://rocketseat.com.br/sobre).
 
 ## How to set up this application?
 You can clone this application through SSH or HTTPS
