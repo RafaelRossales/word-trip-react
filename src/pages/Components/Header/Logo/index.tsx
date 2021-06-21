@@ -8,6 +8,8 @@ export default function Logo(){
         width={185}
         height={50}
         margin={0}
+        ml={575}
+        position="relative"
         />
     )
 }

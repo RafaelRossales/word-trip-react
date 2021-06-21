@@ -32,7 +32,7 @@ export default function Slider(){
             >
             </Flex>
             <Box pos="relative">
-            <Link href="#"
+            <Link href="../../Europe/"
             fontSize={48}
             fontWeight={700}
             color="white.80"
@@ -52,8 +52,8 @@ export default function Slider(){
 
             <SwiperSlide>
             <Flex 
-            backgroundImage="url('https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/china-background-11.jpg?resize=1366%2C768')"
-            bgGradient="linear-gradient(0deg, rgba(28, 20, 1, 0.35), rgba(28, 20, 1, 0.35)), url(https://i1.wp.com/wallur.com/wp-content/uploads/2016/12/china-background-11.jpg?resize=1366%2C768)"
+            backgroundImage="url('/images/south_america.jpg')"
+            bgGradient="linear-gradient(0deg, rgba(28, 20, 1, 0.35), rgba(28, 20, 1, 0.35)), url(/images/south_america.jpg)"
             pos="absolute"
             bgPosition="center"
             bgRepeat="no-repeat"
@@ -68,7 +68,7 @@ export default function Slider(){
             fontWeight={700}
             color="white.80"
             >
-                <p>Asia</p>
+                <p>America do Sul</p>
             </Link>
             <Text
             color="white.80"
